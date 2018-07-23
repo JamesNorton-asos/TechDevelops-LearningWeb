@@ -1,0 +1,43 @@
+* {
+			font-family: Futura PT;
+			font-size: 20px;
+		}
+		div {
+			margin:1em;
+		}
+
+		div > div {
+			margin:0;
+			padding:0;
+		}
+
+		div > div label {
+			display: inline;
+		}
+
+		label {
+			display:block;
+			margin-bottom:0.25em;
+		}
+
+		textarea {
+			margin-top: 0.4em;
+			display:block;
+		}
+
+		select {
+			font-size:0.8em;
+		}
+
+		input[type=text] {
+			width: 400px;
+			font-size:0.8em;
+		}
+
+		input[type=submit], input[type=reset] {
+			border: solid 1px #666;
+			background:#eee;
+			font-size:0.9em;
+			padding: 6px 25px;
+			cursor:pointer;
+		}
