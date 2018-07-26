@@ -31,7 +31,7 @@ xtest('Undefined, or is it?', () => {
 
 	// undefined = 'undefined';
 	// undefined = null;
-	// undefined = (function() {})();
+	// var undefined = 'undefined';
 	
 	function myFunction() {
 		return undefined;
